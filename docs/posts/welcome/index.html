@@ -9,7 +9,7 @@
 <meta name="author" content="Mavis Wong">
 <meta name="dcterms.date" content="2025-01-18">
 
-<title>Welcome To My Blog – Blog</title>
+<title>Unlocking the Future of Climate Prediction: Machine Learning vs.&nbsp;Traditional Methods – Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -105,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
+      <h1 class="title">Unlocking the Future of Climate Prediction: Machine Learning vs.&nbsp;Traditional Methods</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">climate</div>
               </div>
@@ -144,116 +144,159 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<section id="unlocking-the-future-of-climate-prediction-machine-learning-vs.-traditional-methods" class="level1">
-<h1>Unlocking the Future of Climate Prediction: Machine Learning vs.&nbsp;Traditional Methods</h1>
+<p>Discover how the fusion of traditional climate models and cutting-edge machine learning is revolutionizing climate prediction and paving the way for more accurate, real-time weather forecasts and environmental insights</p>
+<section id="unlocking-the-future-of-climate-prediction-machine-learning-vs.traditional-methods" class="level1">
+<h1>Unlocking the Future of Climate Prediction: Machine Learning vs.Traditional Methods</h1>
 <p><img src="climate_pic.jpg" class="img-fluid"></p>
-<p>Climate prediction has become a cornerstone of understanding global shifts, forecasting extreme weather, and preparing for the environmental challenges ahead. For decades, scientists have relied on traditional climate models, intricate systems of equations that mimic the complex dance of the atmosphere, oceans, and land. These models have been the backbone of weather forecasts and long-term climate projections. But with the rise of machine learning (ML), a new era of climate prediction is taking shape—one marked by adaptability, scalability, and often, enhanced predictive accuracy.</p>
-<p>In this blog post, we’ll dive into the fascinating contrast between time-tested traditional methods and cutting-edge machine learning, exploring their unique strengths, limitations, and transformative applications in the real world.</p>
+<p><br></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Climate prediction plays a crucial role in understanding global changes, forecasting extreme weather, and preparing for environmental challenges.</p>
+<p>For decades, scientists have relied on traditional climate models—complex systems of equations simulating the interactions of the atmosphere, oceans, and land. These models have been the foundation of weather forecasts and long-term climate projections.</p>
+<p>However, with the rise of machine learning (ML), a new era of climate prediction is emerging—one that promises adaptability, scalability, and often, enhanced predictive accuracy.</p>
+<p>In this post, we’ll explore the strengths, limitations, and real-world applications of both traditional methods and machine learning in climate prediction.</p>
+<p><br></p>
+</section>
 <section id="traditional-climate-prediction-methods" class="level2">
 <h2 class="anchored" data-anchor-id="traditional-climate-prediction-methods">Traditional Climate Prediction Methods</h2>
-<p><img src="Trad_model.png" class="img-fluid" alt="Traditional Climate Prediction: Numerical Weather Prediction (NWP) Model Schematics"> Traditional climate prediction methods primarily rely on numerical weather prediction (NWP) models. These models uses complex mathematical equations to simulate physical interactions of the atmosphere, oceans, land, and ice. A typical NWP model divides the Earth’s surface into a 3-dimensional grid. Within each grid cell, the model will calculate how different environmental variables (e.g.&nbsp;temperature, humidity, and pressure) evolve over time, as well as the interaction between neighbouring cells. In climate prediction, a wide range of global and regional models are used to forecast different aspects of the climate, such as temperature, precipitation, and atmospheric pressure.</p>
-<section id="strengths-of-traditional-methods" class="level3">
-<h3 class="anchored" data-anchor-id="strengths-of-traditional-methods">Strengths of Traditional Methods</h3>
-<ol type="1">
-<li>Global Coverage:</li>
-</ol>
-<p>By modeling the interactions between the atmosphere, oceans, and land, they can be used to simulate large-scale climate systems across the globe, thus providing a comprehensive view of global climate dynamics.</p>
-<ol start="2" type="1">
-<li>Well-Established Framework:</li>
-</ol>
-<p>Traditional climate models are based on fundamental principles of physics, such as the laws of thermodynamics and fluid dynamics. This makes them highly interpretable and physically consistent. Over the years, these models have been refined, and validated repeatedly against observational data, which has led to significant improvements in their accuracy, making traditional climate prediction methods reliable in many situations.</p>
+<p><br></p>
+<div id="fig-trad_model" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-trad_model-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Trad_model.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-trad_model-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Traditional Climate Prediction: Numerical Weather Prediction (NWP) Model Schematics
+</figcaption>
+</figure>
+</div>
+<p><br></p>
+<p>Traditional climate prediction methods primarily rely on <strong>Numerical Weather Prediction (NWP)</strong> models. These models use complex mathematical equations to simulate the physical interactions of the atmosphere, oceans, land, and ice.</p>
+<p>A typical NWP model divides the Earth’s surface into a 3D grid, calculating how variables like temperature, humidity, and pressure evolve over time, as well as their interactions with neighboring cells.</p>
+<p><br></p>
 </section>
-<section id="weaknesses-of-traditional-methods" class="level3">
-<h3 class="anchored" data-anchor-id="weaknesses-of-traditional-methods">Weaknesses of Traditional Methods</h3>
-<ol type="1">
-<li>Computationally Expensive:</li>
-</ol>
-<p>NWP models are based on complex mathematical equations. Solving these equations are often computational expensive. Especially for models that works with high-resolution data (e.g.&nbsp;remote sensing data), which can capture finer details of climate processes, but in return requires more computational power and resources (e.g.&nbsp;memory).</p>
-<ol start="2" type="1">
-<li>Simplified Assumptions:</li>
-</ol>
-<p>While these models are grounded in physics, they must simplify some processes due to computational limitations and the complexity of natural interations between variables. For example, cloud formation, which plays a crucial role in climate prediction, is often parameterized rather than explicitly modeled. This can lead to inaccuracies, especially in regions where cloud behavior is critical.</p>
-<ol start="3" type="1">
-<li>Limited Flexibility:</li>
-</ol>
-<p>Traditional models typically require extensive recalibration and modifications when dealing with new or unexplored climate conditions. As climate systems are highly dynamic and influenced by a multitude of factors, this can limit their adaptability.</p>
+<section id="strengths-of-traditional-methods" class="level2">
+<h2 class="anchored" data-anchor-id="strengths-of-traditional-methods">Strengths of Traditional Methods</h2>
+<p><strong>1. Global Coverage:</strong></p>
+<p>NWP models can simulate large-scale climate systems, offering a comprehensive view of global climate dynamics.</p>
+<p><strong>2. Well-Established Framework:</strong></p>
+<p>Based on fundamental principles of physics, these models are highly interpretable and physically consistent. Over time, they’ve been refined and validated against observational data, improving their accuracy and reliability.</p>
+<p><br></p>
 </section>
+<section id="weaknesses-of-traditional-methods" class="level2">
+<h2 class="anchored" data-anchor-id="weaknesses-of-traditional-methods">Weaknesses of Traditional Methods</h2>
+<p><strong>1. Computationally Expensive:</strong></p>
+<p>NWP models can be computationally intensive, especially when working with high-resolution data. High-resolution models, such as those used in remote sensing, capture fine details but demand more computational power.</p>
+<p><strong>2. Simplified Assumptions:</strong></p>
+<p>Due to computational limitations, NWP models often simplify complex physical processes, leading to inaccuracies, for example cloud formation is often parameterized rather than explicitly modeled.</p>
+<p><strong>3. Limited Flexibility:</strong></p>
+<p>Climate systems are highly dynamic and influenced by a multitude of factors. Traditional models need frequent recalibration when dealing with new or unexplored climate conditions, making them less adaptable.</p>
+<p><br></p>
 </section>
 <section id="machine-learning-in-climate-prediction" class="level2">
 <h2 class="anchored" data-anchor-id="machine-learning-in-climate-prediction">Machine Learning in Climate Prediction</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="ML_climate.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Machine Learning Framework For Climate Predictions</figcaption>
+<p><br></p>
+<div id="fig-ml_climate" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ml_climate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="ML_climate.jpeg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ml_climate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Machine Learning Framework For Climate Predictions
+</figcaption>
 </figure>
 </div>
-<p>With recent technological development and the rise of artificial intelligence technologies, climate prediction using machine learning is becoming more and more popular. Machine learning algorithms, particularly those based on deep learning, can analyze vast amounts of data to identify patterns and relationships that are difficult for traditional models to capture. Machine learning models do not rely on physical equations but rather on data-driven approaches, learning from historical climate data and making predictions based on those patterns.</p>
-<section id="strengths-of-machine-learning-models" class="level3">
-<h3 class="anchored" data-anchor-id="strengths-of-machine-learning-models">Strengths of Machine Learning Models</h3>
-<ol type="1">
-<li>Data-Driven Insights:</li>
-</ol>
-<p>Machine learning models performs well when large datasets are available, such as satellite data, sensor networks, and historical climate data. By recognizing hidden patterns and correlations in these data sets, machine learning can provide new insights into climate processes. Complex processes that are difficult to model directly, such as extreme weather events and local climate patterns can sometimes be better predicted by machine learning models compared to traditional models.</p>
-<ol start="2" type="1">
-<li>Flexibility and Scalability:</li>
-</ol>
-<p>Machine learning models can be easily adapted to new data, and they often require less domain-specific expertise to implement. Their ability to scale to handle extensive amounts of data from various sources, make them ideal for tasks like predicting localized weather events or tracking environmental changes.</p>
-<ol start="3" type="1">
-<li>Real-Time Predictions:</li>
-</ol>
-<p>Machine learning models can process real-time data more efficiently than traditional models allowing faster predictions, which can be particularly useful for forecasting extreme weather events like hurricanes or heatwaves.</p>
+<p><br></p>
+<p>Recent advancements in machine learning (ML) have revolutionized climate prediction. Unlike traditional methods, machine learning relies on data-driven approaches, learning from historical climate data to identify patterns and make predictions.</p>
+<p><br></p>
 </section>
-<section id="weaknesses-of-machine-learning-models" class="level3">
-<h3 class="anchored" data-anchor-id="weaknesses-of-machine-learning-models">Weaknesses of Machine Learning Models</h3>
-<ol type="1">
-<li>Lack of Physical Interpretation:</li>
-</ol>
-<p>The data-drive nature of machine learning models while provide unique insight, are often “black boxes” that do not provide clear explanations for how predictions are made. This lack of transparency can be a barrier to understanding and validating the predictions.</p>
-<ol start="2" type="1">
-<li>Dependence on Quality Data:</li>
-</ol>
-<p>Since machine learning models predictions are mostly data-driven, it rely heavily on the quality of the data. If the training data is incomplete, biased, or inaccurate, the model’s predictions will also be unreliable. In the context of climate prediction, where data can sometimes be sparse or noisy, this is a significant concern.</p>
-<ol start="3" type="1">
-<li>Risk of Overfitting:</li>
-</ol>
-<p>Machine learning models often run into the problem of overfitting of the training data, in which the model performs well on historical data but was unable to generalize to new, unseen scenarios. This is a challenge in climate modeling, where future conditions may differ from past patterns due to changing environmental factors. While deep learning can discover patterns in data, it may not always capture the multi-dimensional and causal relationships that traditional models can simulate.</p>
+<section id="strengths-of-machine-learning-models" class="level2">
+<h2 class="anchored" data-anchor-id="strengths-of-machine-learning-models">Strengths of Machine Learning Models</h2>
+<p><strong>1. Data-Driven Insights:</strong></p>
+<p>ML models performs well with large datasets. ML algorithms, particularly those based on deep learning, can analyze vast amounts of data to identify patterns and relationships that are difficult for traditional models to capture. For example, extreme weather events and local climate patterns are better simulated using machine learning.</p>
+<p><strong>2. Flexibility and Scalability:</strong></p>
+<p>ML models can adapt to new data and scale to handle large datasets, making them ideal for localized weather predictions or monitoring environmental changes.</p>
+<p><strong>3. Real-Time Predictions:</strong></p>
+<p>ML models can process real-time data more efficiently, allowing faster predictions, especially for time-sensitive events like hurricanes or heatwaves.</p>
+<p><br></p>
 </section>
+<section id="weaknesses-of-machine-learning-models" class="level2">
+<h2 class="anchored" data-anchor-id="weaknesses-of-machine-learning-models">Weaknesses of Machine Learning Models</h2>
+<p><strong>1. Lack of Physical Interpretation:</strong></p>
+<p>ML models are often considered “black boxes” because they don’t provide clear explanations for their predictions. This lack of transparency can make it challenging to validate or interprete the results.</p>
+<p><strong>2. Dependence on Quality Data:</strong></p>
+<p>ML models heavily rely on data quality. Inaccurate, biased, or incomplete datasets can lead to unreliable predictions, which is a concern in climate prediction, where data may be sparse or noisy.</p>
+<p><strong>3. Risk of Overfitting:</strong></p>
+<p>ML models can overfit to historical data, making them less able to generalize to new, unseen scenarios. This is particularly problematic in climate modeling, where future conditions might differ from past patterns due to changing environmental factors. While deep learning can discover patterns in data, it may not always capture the causal relationships that traditional models can simulate.</p>
+<p><br></p>
 </section>
 <section id="real-world-applications-and-case-studies" class="level2">
 <h2 class="anchored" data-anchor-id="real-world-applications-and-case-studies">Real-World Applications and Case Studies</h2>
 <section id="traditional-methods-in-action" class="level3">
-<h3 class="anchored" data-anchor-id="traditional-methods-in-action">Traditional Methods in Action</h3>
-<p><img src="CMIP6.png" class="img-fluid" alt="Coupled Model Intercomparison Projet (CMIP6) FrameWork"> A key example of traditional climate modeling is the Coupled Model Intercomparison Project (CMIP), which involves a set of global climate models that are used to simulate various future climate scenarios. CMIP models have been instrumental in providing projections for future temperature rises, sea-level changes, and regional precipitation patterns, particularly in the context of climate change. These models help inform policy makers, researchers, and governments about potential risks, enabling them to plan for climate mitigation and adaptation.</p>
-<p>For instance, the CMIP5 models were used in the Intergovernmental Panel on Climate Change (IPCC) Fifth Assessment Report to predict temperature changes under different greenhouse gas emission scenarios. These projections have been vital in guiding international climate agreements, such as the Paris Agreement.</p>
+<h3 class="anchored" data-anchor-id="traditional-methods-in-action">1. Traditional Methods in Action</h3>
+<p><br></p>
+<div id="fig-cmip6" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cmip6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="CMIP6.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cmip6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Coupled Model Intercomparison Projet (CMIP6) FrameWork
+</figcaption>
+</figure>
+</div>
+<p><br></p>
+<p>A key example of traditional climate modeling is the <strong>Coupled Model Intercomparison Project (CMIP)</strong>.</p>
+<p>CMIP models simulate various future climate scenarios and provide projections for future temperature rises, sea-level changes, and regional precipitation patterns. These models have been instrumental in guiding international climate agreements, such as <strong>the Paris Agreement</strong>.</p>
+<p>For instance, the CMIP5 models were used in the <strong>Intergovernmental Panel on Climate Change (IPCC)</strong> Fifth Assessment Report to predict temperature changes under different greenhouse gas emission scenarios.</p>
+<p><br></p>
 </section>
 <section id="machine-learning-in-action" class="level3">
-<h3 class="anchored" data-anchor-id="machine-learning-in-action">Machine Learning in Action</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="AI_predict.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Artificial Intelligence in Weather and Climate Prediction</figcaption>
+<h3 class="anchored" data-anchor-id="machine-learning-in-action">2. Machine Learning in Action</h3>
+<p><br></p>
+<div id="fig-ai_predict" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ai_predict-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="AI_predict.jpeg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ai_predict-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Artificial Intelligence in Weather and Climate Prediction
+</figcaption>
 </figure>
 </div>
-<p>Machine learning has found applications in areas where traditional models face limitations, such as predicting extreme weather events. One striking example is the use of machine learning in hurricane forecasting. Researchers at institutions like the National Hurricane Center have used deep learning algorithms to analyze historical hurricane data and predict the intensity and trajectory of storms more accurately than traditional models.</p>
-<p>In addition, machine learning has been used in localized precipitation prediction with a high degree of accuracy, which is vital for flood forecasting and agricultural planning. A promising case study comes from Google’s AI for Earth program, where machine learning models have been used to analyze satellite imagery and predict deforestation patterns in real time, aiding conservation efforts. This is an example of how machine learning can complement traditional methods, offering new insights in areas that require both environmental monitoring and predictive analysis.</p>
+<p><br></p>
+<p>Machine learning has been particularly successful in areas where traditional models face limitations.</p>
+<p>For example, the <strong>National Hurricane Center</strong> uses deep learning algorithms to analyze hurricane data and predict storm intensity and trajectory more accurately than traditional models.</p>
+<p>Similarly, <strong>Google’s AI for Earth program</strong> uses ML to analyze satellite imagery and predict deforestation patterns in real time.</p>
+<p>These examples show how ML complements traditional methods, providing new insights and improving predictions in both environmental monitoring and forecasting</p>
+<p><br></p>
 </section>
-<section id="machine-learning-and-traditional-methods-a-hybrid-approach" class="level3">
-<h3 class="anchored" data-anchor-id="machine-learning-and-traditional-methods-a-hybrid-approach">Machine Learning and Traditional Methods: A Hybrid Approach</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="hybrid.png" class="img-fluid figure-img"></p>
-<figcaption>Strengths and Challenges of Hybrid Climate Prediction Models</figcaption>
+</section>
+<section id="machine-learning-and-traditional-methods-a-hybrid-approach" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning-and-traditional-methods-a-hybrid-approach">Machine Learning and Traditional Methods: A Hybrid Approach</h2>
+<p><br></p>
+<div id="fig-hybrid" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hybrid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="hybrid.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hybrid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Strengths and Challenges of Hybrid Climate Prediction Models
+</figcaption>
 </figure>
 </div>
-<p>In practice, there is a growing consensus that combining traditional and machine learning-based approaches offers the best of both worlds. For example, hybrid models use traditional physical models to capture known physical processes, while machine learning is used to identify and correct any inaccuracies or missing components. This approach takes advantage of the interpretability and scientific rigor of traditional models, along with the flexibility and pattern-recognition capabilities of machine learning.</p>
-</section>
+<p><br></p>
+<p>In hybrid models, traditional physical models capture established physical processes, while machine learning is used to identify and correct inaccuracies or missing components.</p>
+<p>There’s growing support for combining traditional and machine learning-based approaches, as this hybrid method offers the best of both worlds.</p>
+<p>This approach leverages the interpretability and scientific rigor of traditional models, along with the flexibility and pattern-recognition strengths of machine learning, resulting in more accurate and adaptable climate predictions.</p>
+<p><br></p>
 </section>
 <section id="conclusion-which-method-is-better" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion-which-method-is-better">Conclusion: Which Method Is Better?</h2>
-<p>Both machine learning and traditional methods have their place in climate prediction. Traditional models are essential for understanding global and long-term climate dynamics, based on proven scientific principles. However, machine learning offers exciting opportunities for enhancing predictions, especially in areas like extreme weather forecasting and real-time climate analysis.</p>
-<p>Ultimately, the future of climate prediction lies in collaboration. By combining the strengths of both approaches, researchers can build more accurate, efficient, and adaptable models to tackle the growing challenges of climate change.</p>
-<p>As data science continues to evolve, so too will the tools at our disposal for understanding and predicting our planet’s climate. It’s clear that integrating machine learning with traditional methods will not only improve our predictions but also help us make informed decisions to safeguard our future.</p>
+<p>Both traditional methods and machine learning have important roles in climate prediction.</p>
+<p>Traditional models are essential for understanding global climate dynamics, while machine learning offers exciting opportunities for more accurate predictions, particularly in extreme weather forecasting and real-time analysis.</p>
+<p>The future of climate prediction likely lies in combining both approaches. By integrating traditional models with the flexibility and data-driven power of machine learning, we can create more accurate, adaptable models to tackle the growing challenges of climate change.</p>
+<p><br></p>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References</h3>
 <p>NASA. (n.d.). NASA releases detailed global climate change projections. Retrieved from https://science.nasa.gov/earth/climate-change/nasa-releases-detailed-global-climate-change-projections/</p>
