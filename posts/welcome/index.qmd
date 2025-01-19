@@ -5,7 +5,7 @@ date: "2025-01-18"
 categories: [climate]
 ---
 
-Discover how the fusion of traditional climate models and cutting-edge machine learning is revolutionizing climate prediction and paving the way for more accurate, real-time weather forecasts and environmental insights 
+Discover how the combination of traditional climate models and machine learning is changing the way we make climate predictions.
 
 # Unlocking the Future of Climate Prediction: Machine Learning vs.Traditional Methods
 
@@ -15,11 +15,12 @@ Discover how the fusion of traditional climate models and cutting-edge machine l
 
 ## Introduction
 
-Climate prediction plays a crucial role in understanding global changes, forecasting extreme weather, and preparing for environmental challenges. 
+Climate prediction is crucial in helping us understand the world we live in, prepare for future weather and climate changes, and mitigate potential climate risks. 
 
-For decades, scientists have relied on traditional climate models—complex systems of equations simulating the interactions of the atmosphere, oceans, and land. These models have been the foundation of weather forecasts and long-term climate projections.
+For decades, scientists have been using a traditional climate model that utilizes complex mathematical equations to simulate the interactions of the atmosphere, oceans, and land. 
+These models have been the foundation of our current weather forecasts and long-term climate projections.
 
-However, with the rise of machine learning (ML), a new era of climate prediction is emerging—one that promises adaptability, scalability, and often, enhanced predictive accuracy. 
+However, with the rise of machine learning (ML), new climate prediction models have been developed using machine learning algorithms.  
 
 In this post, we’ll explore the strengths, limitations, and real-world applications of both traditional methods and machine learning in climate prediction.
 
@@ -29,13 +30,15 @@ In this post, we’ll explore the strengths, limitations, and real-world applica
 
 <br>
 
-![Traditional Climate Prediction: Numerical Weather Prediction (NWP) Model Schematics](Trad_model.png){#fig-trad_model}
+![Traditional Climate Prediction: Global Climate Model (GCM) Schematics](Trad_model.png){#fig-trad_model}
 
 <br>
 
-Traditional climate prediction methods primarily rely on **Numerical Weather Prediction (NWP)** models. These models use complex mathematical equations to simulate the physical interactions of the atmosphere, oceans, land, and ice. 
-
-A typical NWP model divides the Earth’s surface into a 3D grid, calculating how variables like temperature, humidity, and pressure evolve over time, as well as their interactions with neighboring cells.
+Traditional climate prediction models use complex systems of equations to simulate the physical processes of our climate system. 
+One of the most commonly used traditional prediction models is **Numerical Weather Prediction (NWP)** model. 
+An NWP model is a mathematical model that divides the Earth’s surface into a 3D grid of cells. 
+For each cell, the model will calculate how different variables such as temperature, humidity, and pressure will change over time using established complex algorithms. 
+Taking into account the interaction between neighbouring cells, NWP models will be able to predict future climate changes.
 
 <br>
 
@@ -43,11 +46,12 @@ A typical NWP model divides the Earth’s surface into a 3D grid, calculating ho
 
 **1. Global Coverage:** 
 
-NWP models can simulate large-scale climate systems, offering a comprehensive view of global climate dynamics.
+Traditional models are often capable of simulating large-scale climate systems, thus providing a comprehensive view of global climate dynamics.
 
 **2. Well-Established Framework:** 
 
-Based on fundamental principles of physics, these models are highly interpretable and physically consistent. Over time, they’ve been refined and validated against observational data, improving their accuracy and reliability.
+Since traditional models are based on fundamental physics principles and mathematical equations, the results are highly interpretable and consistent. 
+Built upon decades of scientific research, these models have been continuously improved, refined and validated with observed climate data. Many of these models are highly reliable and can produce fairly accurate predictions.
 
 <br>
 
@@ -55,15 +59,17 @@ Based on fundamental principles of physics, these models are highly interpretabl
 
 **1. Computationally Expensive:**
 
-NWP models can be computationally intensive, especially when working with high-resolution data. High-resolution models, such as those used in remote sensing, capture fine details but demand more computational power.
+While traditional models are able to produce accurate and reliable predictions, running these models can also be computationally expensive. Solving the complex equations involved in traditional prediction models often requires significant computational time, power and memory. 
+
+One example would be models that utilize high-resolution remote sensing data. While these models can capture finer details and interactions, they require much more memory, computation time and power to store and handle the extra information.
 
 **2. Simplified Assumptions:**
     
-Due to computational limitations, NWP models often simplify complex physical processes, leading to inaccuracies, for example cloud formation is often parameterized rather than explicitly modeled.
+Despite being grounded in physics, many of the models have to simplify certain physical processes due to the processes being too complex for actual computations. For example, cloud formation is highly dynamic, and explicitly modelling cloud formation may not be computationally feasible or efficient. Therefore, it is often parameterized instead of direct simulation, leading to potential inaccuracies.
 
 **3. Limited Flexibility:** 
 
-Climate systems are highly dynamic and influenced by a multitude of factors. Traditional models need frequent recalibration when dealing with new or unexplored climate conditions, making them less adaptable.
+Climate systems are dynamic in nature and are influenced by a wide range of factors. Therefore, traditional models require a lot of recalibration when dealing with some new or unexplored climate conditions, making them less adaptable.
 
 <br>
 
@@ -75,7 +81,7 @@ Climate systems are highly dynamic and influenced by a multitude of factors. Tra
 
 <br>
 
-Recent advancements in machine learning (ML) have revolutionized climate prediction. Unlike traditional methods, machine learning relies on data-driven approaches, learning from historical climate data to identify patterns and make predictions.
+Recent advancements in machine learning (ML) have revolutionized climate prediction. Unlike traditional methods, machine learning relies on data-driven approaches: by learning from historical climate data to identify patterns and make predictions.
 
 <br>
 
@@ -83,15 +89,15 @@ Recent advancements in machine learning (ML) have revolutionized climate predict
 
 **1. Data-Driven Insights:** 
 
-ML models performs well with large datasets. ML algorithms, particularly those based on deep learning, can analyze vast amounts of data to identify patterns and relationships that are difficult for traditional models to capture. For example, extreme weather events and local climate patterns are better simulated using machine learning.
+ML models work well with large datasets. ML algorithms, particularly those that are based on deep learning, can analyze huge amounts of data to identify patterns and relationships that are difficult for traditional models to capture. For example, extreme weather events like hurricanes and heat waves.
 
 **2. Flexibility and Scalability:** 
 
-ML models can adapt to new data and scale to handle large datasets, making them ideal for localized weather predictions or monitoring environmental changes.
+ML models are much more flexible compared to traditional prediction models. While traditional models are often bound by their predefined systems of equations and computational limitations, ML models on the other hand are able to adapt to new data and scale to handle larger datasets. This makes them ideal for localized weather predictions or monitoring environmental changes.
 
 **3. Real-Time Predictions:** 
 
-ML models can process real-time data more efficiently, allowing faster predictions, especially for time-sensitive events like hurricanes or heatwaves.
+ML models can process real-time data much more efficiently when compared to traditional models, allowing them to make faster real-time predictions, especially for time-sensitive events like hurricanes or heatwaves.
 
 <br>
 
@@ -100,15 +106,15 @@ ML models can process real-time data more efficiently, allowing faster predictio
 
 **1. Lack of Physical Interpretation:**
 
-ML models are often considered "black boxes" because they don’t provide clear explanations for their predictions. This lack of transparency can make it challenging to validate or interprete the results.
+Unlike traditional models where predictions can be explained by physical principles and equations, ML models are often considered "black boxes" because they make predictions based on input data and do not provide clear explanations of the process leading to their predictions. This lack of transparency can make it challenging to validate or interpret the results.
 
 **2. Dependence on Quality Data:** 
 
-ML models heavily rely on data quality. Inaccurate, biased, or incomplete datasets can lead to unreliable predictions, which is a concern in climate prediction, where data may be sparse or noisy.
+ML model predictions, being mostly data-driven, are heavily relied on data quality. Inaccurate, biased, or incomplete datasets can lead to unreliable predictions. This is a particular concern in climate prediction, as climate and weather data can often be sparse or noisy.
 
 **3. Risk of Overfitting:** 
 
-ML models can overfit to historical data, making them less able to generalize to new, unseen scenarios. This is particularly problematic in climate modeling, where future conditions might differ from past patterns due to changing environmental factors. While deep learning can discover patterns in data, it may not always capture the causal relationships that traditional models can simulate.
+ML models often run into the risk of overfitting to historical data, meaning they learn patterns, including noise and irrelevant details, from training data so well that they perform poorly on new, unseen data. This is particularly problematic in climate modelling because future climate conditions can deviate from past patterns as our environment changes. While deep learning ML models can discover hidden patterns in data, they may not always be able to capture the causal relationships between environmental variables that traditional models can describe.
 
 <br>
 
@@ -122,12 +128,9 @@ ML models can overfit to historical data, making them less able to generalize to
 
 <br>
 
-A key example of traditional climate modeling is the **Coupled Model Intercomparison Project (CMIP)**. 
+One of the most influential examples of traditional climate modelling is the **Coupled Model Intercomparison Project (CMIP)**. 
 
-CMIP models simulate various future climate scenarios and provide projections for future temperature rises, sea-level changes, and regional precipitation patterns. These models have been instrumental in guiding international climate agreements, such as **the Paris Agreement**. 
-
-For instance, the CMIP5 models were used in the **Intergovernmental Panel on Climate Change (IPCC)** Fifth Assessment Report to predict temperature changes under different greenhouse gas emission scenarios.
-
+CMIP is a collection of models that simulate various climate systems on Earth, providing projections for future temperature rises, sea-level changes, and regional precipitation patterns. For example, CMIP5 models are used in the **Intergovernmental Panel on Climate Change (IPCC)** Fifth Assessment Report to predict temperature changes under different greenhouse gas emission scenarios. These models also played an important role in guiding international climate agreements, such as the **Paris Agreement**. 
 <br>
 
 ### 2. Machine Learning in Action
@@ -138,13 +141,14 @@ For instance, the CMIP5 models were used in the **Intergovernmental Panel on Cli
 
 <br>
 
-Machine learning has been particularly successful in areas where traditional models face limitations. 
+In areas where traditional models struggle, machine learning has been applied to produce meaningful predictions.
 
-For example, the **National Hurricane Center** uses deep learning algorithms to analyze hurricane data and predict storm intensity and trajectory more accurately than traditional models. 
+For example, the **National Hurricane Center** have been able to use deep learning algorithms to analyze hurricane data to predict storm intensity and trajectory more accurately than current traditional models. 
 
-Similarly, **Google’s AI for Earth program** uses ML to analyze satellite imagery and predict deforestation patterns in real time.
+Similarly, **Google’s AI for Earth program** uses ML to analyze satellite imagery to predict deforestation patterns in real-time.
 
-These examples show how ML complements traditional methods, providing new insights and improving predictions in both environmental monitoring and forecasting
+These examples show how ML provides new insights into climate predictions and improve environmental monitoring and forecasting.
+
 
 <br>
 
@@ -152,25 +156,27 @@ These examples show how ML complements traditional methods, providing new insigh
 
 <br>
 
-![Strengths and Challenges of Hybrid Climate Prediction Models](hybrid.png){#fig-hybrid}
+![How traditional climate model(A, upper left) is incorporated with machine learning models (B, bottom) to create predictions (output, upper right)](hybrid_model.png){#fig-hybrid_model}
 
 <br>
 
-In hybrid models, traditional physical models capture established physical processes, while machine learning is used to identify and correct inaccuracies or missing components.
+In hybrid models, traditional physical models are used to simulate key variables in physical processes, machine learning tools are then used to identify patterns between these variables to make further predictions. 
 
-There’s growing support for combining traditional and machine learning-based approaches, as this hybrid method offers the best of both worlds.
+The use of traditional physical models in simulating physical processes ensures the data quality of the input data for the machine learning models, thus minimising biases in ML models. 
 
-This approach leverages the interpretability and scientific rigor of traditional models, along with the flexibility and pattern-recognition strengths of machine learning, resulting in more accurate and adaptable climate predictions.
+On the other hand, ML models can account for the variability of real-time conditions and complex relationships between variables that traditional models struggle to process. Using hybrid models allows us to overcome the limitations of traditional climate models-such as computational intensity and lack of flexibility, while addressing the challenges faced by machine learning, such as modelling biases and their dependency on data quality. 
 
 <br>
 
-## Conclusion: Which Method Is Better?
+## Conclusion: Which Method Is Better? 
 
-Both traditional methods and machine learning have important roles in climate prediction. 
+![Strengths and Challenges of Hybrid Models](hybrid.png){#fig-hybrid}
 
-Traditional models are essential for understanding global climate dynamics, while machine learning offers exciting opportunities for more accurate predictions, particularly in extreme weather forecasting and real-time analysis.
 
-The future of climate prediction likely lies in combining both approaches. By integrating traditional models with the flexibility and data-driven power of machine learning, we can create more accurate, adaptable models to tackle the growing challenges of climate change.
+Both traditional methods and machine learning are essential in climate prediction. Machine learning and traditional climate models complement each other, and combining these two methods will give us the best of both worlds. 
+
+To tackle the growing challenges of climate change, the future of climate prediction likely lies in hybrid models. Hybrid models integrate the strength of data-driven and mathematically-driven methods, offering the flexibility, scalability and efficiency of machine learning models, while still maintaining the scientific precision and interpretability of traditional models. Hybrid models are able to process large datasets and simulate highly complex systems, without being overly computationally expensive, all while still being able to provide accurate and robust climate predictions. 
+
 
 <br>
 
@@ -187,3 +193,5 @@ MDPI. (2021). Remote sensing for climate predictions: A review. Remote Sensing, 
 Hydrology and Earth System Sciences. (2023). Advancements in climate prediction: Machine learning and traditional approaches. Hydrology and Earth System Sciences, 27(1865). Retrieved from https://hess.copernicus.org/articles/27/1865/2023/
 
 Springer. (2024). Hybrid models for climate prediction: Bridging traditional and machine learning methods. Environmental Research: Infrastructure and Sustainability, 1(1). Retrieved from https://link.springer.com/article/10.1007/s42791-024-00068-y
+
+Karlsruhe Institute of Technology. (n.d.). Machine learning and climate. Retrieved from https://ki-klima.iti.kit.edu/81.php
